@@ -1,8 +1,6 @@
-﻿import pickle, copy, os
-import cgi
 import requests  
 import datetime
-import token
+
 
 class BotHandler:
     def __init__(self, token):

@@ -1,0 +1,21 @@
+{
+  "name": "repo",
+  "scripts": {
+    "postdeploy": "web: python BotHandler.py"
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
